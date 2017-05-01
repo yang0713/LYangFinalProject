@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TitleVC.swift
 //  Green24
 //
 //  Created by Liuke Yang on 4/27/17.
@@ -8,18 +8,21 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TitleVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
     }
 
+    @IBAction func beginButtonPressed(_ sender: UIButton) {
+
+    }
 
 }
 

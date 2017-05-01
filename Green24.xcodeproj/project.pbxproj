@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		412296231EB6C8FA000655DC /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412296221EB6C8FA000655DC /* AboutVC.swift */; };
 		4130BC671EB2BD4100269D65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130BC661EB2BD4100269D65 /* AppDelegate.swift */; };
-		4130BC691EB2BD4100269D65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130BC681EB2BD4100269D65 /* ViewController.swift */; };
+		4130BC691EB2BD4100269D65 /* TitleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130BC681EB2BD4100269D65 /* TitleVC.swift */; };
 		4130BC6C1EB2BD4100269D65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130BC6A1EB2BD4100269D65 /* Main.storyboard */; };
 		4130BC6E1EB2BD4100269D65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4130BC6D1EB2BD4100269D65 /* Assets.xcassets */; };
 		4130BC711EB2BD4100269D65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4130BC6F1EB2BD4100269D65 /* LaunchScreen.storyboard */; };
 		4130BC7C1EB2BD4100269D65 /* Green24Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130BC7B1EB2BD4100269D65 /* Green24Tests.swift */; };
+		4130BC871EB2C83700269D65 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4130BC861EB2C83700269D65 /* GameVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		412296221EB6C8FA000655DC /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
 		4130BC631EB2BD4100269D65 /* Green24.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Green24.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4130BC661EB2BD4100269D65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4130BC681EB2BD4100269D65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4130BC681EB2BD4100269D65 /* TitleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleVC.swift; sourceTree = "<group>"; };
 		4130BC6B1EB2BD4100269D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4130BC6D1EB2BD4100269D65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4130BC701EB2BD4100269D65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		4130BC771EB2BD4100269D65 /* Green24Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Green24Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4130BC7B1EB2BD4100269D65 /* Green24Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Green24Tests.swift; sourceTree = "<group>"; };
 		4130BC7D1EB2BD4100269D65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4130BC861EB2C83700269D65 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				4130BC661EB2BD4100269D65 /* AppDelegate.swift */,
-				4130BC681EB2BD4100269D65 /* ViewController.swift */,
+				412296221EB6C8FA000655DC /* AboutVC.swift */,
+				4130BC681EB2BD4100269D65 /* TitleVC.swift */,
+				4130BC861EB2C83700269D65 /* GameVC.swift */,
 				4130BC6A1EB2BD4100269D65 /* Main.storyboard */,
 				4130BC6D1EB2BD4100269D65 /* Assets.xcassets */,
 				4130BC6F1EB2BD4100269D65 /* LaunchScreen.storyboard */,
@@ -201,7 +207,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4130BC691EB2BD4100269D65 /* ViewController.swift in Sources */,
+				412296231EB6C8FA000655DC /* AboutVC.swift in Sources */,
+				4130BC691EB2BD4100269D65 /* TitleVC.swift in Sources */,
+				4130BC871EB2C83700269D65 /* GameVC.swift in Sources */,
 				4130BC671EB2BD4100269D65 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,7 +350,7 @@
 		4130BC811EB2BD4100269D65 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = H8S4RT4KWP;
 				INFOPLIST_FILE = Green24/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -355,7 +363,7 @@
 		4130BC821EB2BD4100269D65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				DEVELOPMENT_TEAM = H8S4RT4KWP;
 				INFOPLIST_FILE = Green24/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -414,6 +422,7 @@
 				4130BC821EB2BD4100269D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4130BC831EB2BD4100269D65 /* Build configuration list for PBXNativeTarget "Green24Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +431,7 @@
 				4130BC851EB2BD4100269D65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
